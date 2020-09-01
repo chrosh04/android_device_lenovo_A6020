@@ -1,7 +1,7 @@
 #
 # Copyright (C) 2013-2016 The CyanogenMod Project
 #           (C) 2017-2018 The LineageOS Project
-#
+#           (C) 2020 pixelExperience project
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -15,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_A6020.mk
+    $(LOCAL_DIR)/aosp_A6020.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_A6020-userdebug \
-    xtended_A6020-eng \
-    xtended_A6020-user
+    aosp_A6020-userdebug \
+    aosp_A6020-eng \
+    aosp_A6020-user
